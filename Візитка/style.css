@@ -1,0 +1,234 @@
+body{
+    background: url('background.svg') no-repeat center top;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Poor Richard", sans-serif;
+}
+header{
+    width: 90%;
+    min-height: 23px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 143px 15px 104px;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.icon img{
+    width: 78px;
+    height: 76px;
+}
+.iconText{
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.03em;
+    color: #1e1c31;
+}
+.menu {
+    width: 517px;
+    height: 47px;
+    display: flex;
+    gap: 41px;
+}
+.menu a {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #1e1c31;
+    text-decoration: none;
+}
+.menu a.active {
+    color: #ff0004;
+}
+.menu a:hover {
+    color: #ff0004;
+}
+
+#home{
+    width: 1154px;
+    height: 327px;
+    padding-top: 258px;
+    padding-left: 143px;
+    padding-right: 143px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text_home{
+    font-weight: 400;
+    font-size: 40px;
+    color: #1e1c31;
+    padding-top: 38px;
+    padding-bottom: 51px;
+    max-width: 50%;
+}
+#home img{
+    border-radius: 20px;
+    width: 327px;
+    height: 327px;
+    object-fit: cover;
+}
+
+.label {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #f00;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+#about-me {
+    width: calc(100% - 92px);
+    max-width: 1348px;
+    height: 971px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 112px;
+}
+#about-me img{
+    width: 197px;
+    height: 225px;
+    padding-left: 140px;
+    margin-right: 107px;
+}
+.content_about-me{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.text_about-me{
+    font-weight: 400;
+    font-size: 36px;
+    color: #000;
+    text-align: left;
+}
+
+#portfolio{
+    width: calc(100% - 92px);
+    max-width: 1348px;
+    height: 1572px;
+    margin: 0 auto;
+    flex-direction: column;
+    padding-top: 112px;
+}
+.content_portfolio{
+    display: flex;
+    align-items: center;
+    gap: 247px;
+}
+.text_portfolio{
+    font-weight: 400;
+    font-size: 36px;
+    color: #000;
+    padding-left: 140px;
+}
+.portfolio_photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 53px;
+}
+.ex_1 {
+    display: flex;
+    align-items: center;
+    margin-left: 334px;
+    gap: 59px;
+}
+.pImg1 {
+    border-radius: 20px;
+    width: 368px;
+    height: 355px;
+    box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: rgba(255, 0, 0, 0.03);
+    display: block;
+}
+.ex_2{
+    width: 1208px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    margin-left: 99px;
+    margin-top: 166px;
+    gap: 21px;
+}
+.pImg2 {
+    border-radius: 20px;
+    width: 632px;
+    height: 307px;
+    box-shadow: inset 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: rgba(255, 0, 0, 0.03);
+    display: block;
+}
+.ex_3{
+    text-align: center;
+    margin-top: 53px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 32px;
+    color: #000;
+}
+.text .year {
+    color: red;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+#contact{
+    width: calc(100% - 92px);
+    max-width: 1348px;
+    height: 793px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 112px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.content_contact{
+    display: flex;
+    gap: 10px;
+}
+.img_1{
+    width: 197px;
+    height: 139px;
+    margin: 20px auto;
+    display: block;
+}
+.text_contact{
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
+.link{
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    
+}
+.img_logo_contact{
+    width: 54px;
+    height: 55px;
+}
